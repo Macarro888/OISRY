@@ -89,6 +89,9 @@ body{
 .vetrina_page img{
     border: solid;
 }
+.news img{
+    border: solid 2px;
+}
 
 /* In questo creaiamo i bordi, gli spazzi attorno e che si collegano */
 

@@ -1,0 +1,86 @@
+body{
+    background-color: grey;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* ---------------|Body|-------------- */
+
+#Immagine_index{
+    border: solid 2px;
+}
+/* CSS per l'immagine dell'index */
+
+#Schumacher{
+    border: solid 1px;
+    width: 120px;
+}
+
+#Titolo{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: solid 2px;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+#Jordan{
+    border: solid 1px;
+}
+
+#titolo_prenotazione{
+   text-align: center;
+}
+
+#img_siamo{
+    float: right;
+    margin-left: 10px;
+}
+
+#icon_home{
+    border: solid 2px black;
+}
+/*-----------|ID|---------------- */
+.Menu{
+    display: flex;
+    justify-content: space-between;
+}
+/* Creo una griglia orizzontale e con lo spazio tra gli elementi */
+.grid-item{
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #000;
+}
+
+.Pagina{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: left;
+    text-align: left;
+}
+
+.img_siamo_div{
+    padding: 10px;
+    margin-left: 80%;
+    float: right;
+}
+.img_siamo_div img {
+    border: solid 2px;
+}
+.Vetrina{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Vetrina p{
+    color: #000080;
+}
+.img_pr{
+    border: solid 2px;
+}
+
+.Contatti_pg{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.info p{
+    font-size: 70%;
+}
+/* In questo creaiamo i bordi, gli spazzi attorno e che si collegano */
+
+/*------------|Classi|---------------- */

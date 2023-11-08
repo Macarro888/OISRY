@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Prenota prodotto
+    </title>
+    <link rel="Stylesheet" href="/CSS/Style.css">
+</head>
+
+<body>
+    <img id="Immagine_index" src="/img/OIG.jpeg" width="100">
+    <h1 id="Titolo">OISRY</h1>
+    <br><br>
+    <p>
+        ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    </p>
+    <h1 id="titolo_prenotazione">
+        PRENOTAZIONE
+    </h1>
+    <label for="menu_prodotto">Seleziona prodotto:</label><br>
+    <select id="menu_prodotto">
+        <option value="Felpa_Jordan">Felpa Jordan</option>
+        <option value="Scarpe_sonic">Scarpe sonic</option>
+        <option value="Scarpe_calcio">Scarpe Nike Soxic</option>
+    </select>
+    <br><br>
+    <form>
+        <p>Indirizzo:</p>
+        <input type="text"><br>
+        <!-- Diamo all'utente di inserire il suo indirizzo di casa -->
+        <p>Indirizzo Email:</p>
+        <input type="email">
+        <!-- Diamo ala possibilità all'utente di inserire l'email -->
+        <p>Numero di telefono:</p>
+        <input type="number" maxlength="10"><br>
+        <!-- Diamo all'utente di inserire il numero di telefono -->
+        <p>indicaci la data di consegna preferita:</p>
+        <input type="date" min="2023-12-01" max="2024-01-31">
+        <!-- Diamo all'utente di inserire la data di consegna che preferisce -->
+        <p>Note per il corriere:</p>
+        <input type="text"><br>
+        <!-- Anche la possibilità di inserire note per il corriere -->
+        <input type="submit" value="Invia prenotazione">
+        <!-- Invio della prenotazione -->
+    </form>
+    <br>
+    <a href="/Main/Index.html" alt="Home"><img id="icon_home" src="/img/HOme.jpg" width="30px"></a>
+</body>
+
+</html>

@@ -81,6 +81,15 @@ body{
 .info p{
     font-size: 70%;
 }
+
+.vetrina_page{
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.vetrina_page img{
+    border: solid;
+}
+
 /* In questo creaiamo i bordi, gli spazzi attorno e che si collegano */
 
 /*------------|Classi|---------------- */

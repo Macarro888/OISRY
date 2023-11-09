@@ -1,11 +1,12 @@
 body{
-    background-color: rgb(255, 30, 0);
+    background-image: url("/img/sfondo.jpg");
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: solid 2px;
 }
 /* ---------------|Body|-------------- */
 
 #Immagine_index{
-    border: solid 2px;
+    border: solid 1px;
 }
 /* CSS per l'immagine dell'index */
 
@@ -19,6 +20,8 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-left: 40%;
     margin-right: 40%;
+    border: solid 2px ;
+    background-color: aliceblue;
 }
 
 #Jordan{
@@ -37,11 +40,14 @@ body{
 #icon_home{
     border: solid 2px black;
 }
+
+#info_1{
+    border-top: solid 2px;
+}
 /*-----------|ID|---------------- */
 .Menu{
     display: flex;
     justify-content: space-between;
-    border: solid rgb(0, 0, 0);
 }
 /* Creo una griglia orizzontale e con lo spazio tra gli elementi */
 .grid-item{
@@ -93,7 +99,7 @@ body{
     border: solid 2px;
 }
 .Banner{
-    background-color: rgb(232, 249, 253);
+    background-image: url("/img/asfalto.jpg");
     border: solid rgb(0, 0, 0);
 }
 

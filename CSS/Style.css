@@ -97,6 +97,11 @@ body{
     border: solid rgb(0, 0, 0);
 }
 
+.orari tr, th, td, table {
+    border: solid 1px ;
+    
+}
+
 /* In questo creaiamo i bordi, gli spazzi attorno e che si collegano */
 
 /*------------|Classi|---------------- */

@@ -81,7 +81,8 @@ body{
 }
 
 .Contatti_pg{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 230px;
 }
 
 .info p{
